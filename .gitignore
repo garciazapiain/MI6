@@ -11,3 +11,5 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 webpack.mix.js
+/public/js
+/public/mix-manifest.json
