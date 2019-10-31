@@ -34,7 +34,7 @@ class PeopleSeeder extends Seeder
 
 
 
-        $statuses = \App\Status::pluck('name', 'id')->toArray(); // \App\Status, name, id
+        $statuses = \App\Status::pluck('status', 'id')->toArray(); // \App\Status, name, id
 
         $unknown_status_id = array_search('Unknown', $statuses) ?: null;
 
@@ -69,7 +69,7 @@ class PeopleSeeder extends Seeder
 
             // find the right status
 
-            /* foreach ($statuses as $status_id => $name) {
+            foreach ($statuses as $status_id => $name) {
 
                 if (preg_match('#' . preg_quote($name, '#') . '#i', $item->status)) {
 
@@ -77,7 +77,7 @@ class PeopleSeeder extends Seeder
 
                     break;
                 }
-            } */
+            }
 
 
 

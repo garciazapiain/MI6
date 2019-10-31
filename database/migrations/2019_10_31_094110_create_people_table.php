@@ -23,10 +23,11 @@ class CreatePeopleTable extends Migration
             $table->string('features')->nullable();
             $table->string('hair_color')->nullable();
             $table->string('eye_color')->nullable();
-            $table->unsignedSmallInteger('height')->nullable();
-            $table->unsignedSmallInteger('weight')->nullable();
+            $table->string('height')->nullable();
+            $table->string('weight')->nullable();
             $table->string('nationality')->nullable();
             $table->string('occupation')->nullable();
+            $table->unsignedSmallInteger('status_id')->nullable();
             $table->string('status_text')->nullable();
             $table->bigInteger('image_id')->nullable();
             $table->timestamps();
