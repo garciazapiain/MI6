@@ -32074,7 +32074,7 @@ function (_React$Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      fetch('http://www.mi6.test:8080/api/person').then(function (response) {
+      fetch('http://www.mi6.test:8000/api/person').then(function (response) {
         return response.json();
       }).then(function (data) {
         return _this2.setState({
@@ -32146,8 +32146,8 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/andrewmarkham/web/bootcamp/laravel-mi6-asset-db/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/andrewmarkham/web/bootcamp/laravel-mi6-asset-db/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\web\Data4You\laravel-mi6\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\web\Data4You\laravel-mi6\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
