@@ -28,6 +28,7 @@ class CreatePeopleTable extends Migration
             $table->string('nationality')->nullable();
             $table->string('occupation')->nullable();
             $table->string('status_text')->nullable();
+            $table->bigInteger('image_id')->nullable();
             $table->timestamps();
         });
     }
