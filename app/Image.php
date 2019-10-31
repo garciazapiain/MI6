@@ -8,6 +8,6 @@ class Image extends Model
 {
     public function person()
     {
-        $this->hasOne('App\Person');
+        return $this->hasOne('App\Person');
     }
 }

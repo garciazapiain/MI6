@@ -8,16 +8,16 @@ class Person extends Model
 {
     public function aliases()
     {
-        $this->hasMany('App\Alias');
+        return $this->hasMany('App\Alias');
     }
 
     public function image()
     {
-        $this->hasOne('App\Image');
+        return $this->belongsTo('App\Image');
     }
 
     public function status()
     {
-        $this->belongsTo('App\Status');
+        return $this->belongsTo('App\Status');
     }
 }

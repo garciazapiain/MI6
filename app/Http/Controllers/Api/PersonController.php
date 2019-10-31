@@ -12,7 +12,7 @@ class PersonController extends Controller
 {
     public function index()
     {
-        $selected = Person::limit(10)->orderby('name')->get();
+        $selected = Person::with('image')->limit(10)->orderby('name')->get();
         return $selected;
     }
 }
