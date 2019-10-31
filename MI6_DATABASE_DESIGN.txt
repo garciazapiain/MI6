@@ -1,0 +1,49 @@
+Operatives -> Users
+		Location - London office
+		Location - In the field
+
+		Authentication - email
+		Authentication - password
+
+Aliases
+		Alias name
+		Operative ID
+
+Important missions
+	Codename
+	Year
+	Operatives assigned -> operative id
+	Success status
+
+Assets
+	Name of person
+	Nationality
+	Target or not
+	Friendly/unfriendly
+	Occupation
+	Affiliation
+
+	Year of birth
+	Weight
+	Height
+	Eye Color
+
+	Dead or alive
+
+Resources
+	Images etc
+
+===========================================
+
+
+Users --> access too many --> People
+								User ID (Operative they're connected to)
+								Status ID (Related to status table)
+
+Aliases --> points to single --> Person
+									Person ID
+
+Mission report -->
+				User ID
+				Mission ID	--> Missions
+
