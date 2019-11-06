@@ -10,7 +10,7 @@ export default class PeopleList extends React.Component {
     }
 
     componentDidMount() {
-        fetch( 'http://www.mi6.test:8000/api/person' )
+        fetch( '/api/person' )
             .then( response => response.json() )
             .then( data => (
                 this.setState( {
